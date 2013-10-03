@@ -1,0 +1,17 @@
+{
+  "name": "Soundfinder",
+  "version": "2013.10.3",
+  "description": "Mark 'official' versions of tracks on Soundcloud.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.soundcloud.com/*",
+        "http://*.soundcloud.com/*"
+      ],
+      "all_frames": true,
+      "js": ["jquery.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
