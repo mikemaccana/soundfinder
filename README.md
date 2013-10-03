@@ -8,7 +8,7 @@ Searching for a track on Soundcloud? Tired of 'remix' spam? This extension marks
 
 Load the extension:
 
-1. Visit chrome://extensions
+1. Visit [chrome://extensions](chrome://extensions)
 2. Tick the 'Developer Mode' box in the top right
 3. Click 'Load unpacked extension' and select this folder.
 
